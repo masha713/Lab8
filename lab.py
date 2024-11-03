@@ -1,0 +1,5 @@
+input_string = input("Введіть рядок слів, розділених пробілами: ")
+words = input_string.split()
+longest_word = max(words, key=len)
+print("Найдовше слово:", longest_word)
+print("Його довжина:", len(longest_word))
